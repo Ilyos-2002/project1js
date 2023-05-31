@@ -9,6 +9,7 @@ elBtn.addEventListener("click", displayMessage);
 
 function displayMessage() {
     if (elInput.value) {
+
         elMessage.textContent = elInput.value;
         elInput.value = "";
 
