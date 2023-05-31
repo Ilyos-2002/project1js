@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    margin-top: 120px;
+    align-self: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 10px;
+
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: rgb(219, 51, 253);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-style: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.error {
+    background-color: rgb(255, 139, 139);
+    padding: 5px 0;
+    width: 70%;
+    display: none;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 5px;
+    font-style: 22px;
+}
+
+.message {
+    font-size: 18px;
+    color: rgb(44, 29, 255);
+    font-weight: bold;
+    margin-top: -5px;
+}
